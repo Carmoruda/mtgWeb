@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap");
+
+body {
+  font-family: "Lexend", sans-serif;
+  background-image: url("https://images.ctfassets.net/s5n2t79q9icq/1qzXodKM6AeVYylubDU1Ge/29d483d7057df490a4b7c29c31658f94/fnsaiviqp4_1920x1040.jpg");
+}
+
+/* --- NAVBAR --- */
+.logo-foto {
+  width: 268px;
+  height: 92.673px;
+  display: flex;
+  padding: 6px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+}
+
+.navbar-list {
+  padding: 0.625rem;
+}
+
+.navbar-web {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  padding: 16px 92px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: rgba(181, 178, 178, 0.7);
+  transition: color 2s;
+}
+
+.row-nav-item {
+  padding-right: 1.5rem;
+}
+
+.row:hover i,
+.row:hover .nav-link,
+.nav-link:focus {
+  color: #cf322090;
+}
+
+.row:hover .active {
+  color: #cf3220;
+}
+
+.col-nav-icon {
+  display: flex;
+  margin-top: 06%;
+  padding-right: 0%;
+}
+
+.nav-item {
+  display: flex;
+  padding: 0.625rem;
+  align-items: center;
+  gap: 0.4375rem;
+}
+
+.nav-icon {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  color: rgba(181, 178, 178, 0.7);
+  padding-right: 0%;
+  transition: color 2s;
+}
+
+.active {
+  color: #ffffff;
+}
+
+.fa-center {
+  line-height: 150% !important;
+}
+
+/* --- CAROUSEL --- */
+.carousel-indicators button {
+  border-radius: 100%;
+  width: 0.65rem !important;
+  height: 0.65rem !important;
+  background-color: rgba(239, 239, 239, 0.35) !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .logo-foto {
+    height: auto;
+    width: 85%;
+  }
+
+  .navbar-brand {
+    width: 65%;
+  }
+
+  .navbar-toggler {
+    padding: initial;
+  }
+}
+
+/* --- MEDIAQUERIES --- */
+/* Small devices (landscape phones, entre 576px y 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+/* Medium devices (tablets, entre 768px y 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row-nav-item {
+    padding-right: 0;
+  }
+}
+/* Large devices (desktops, entre 992px y 1199.98) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-web {
+    display: flex;
+    padding: 16px 46px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/* Extra large devices (large desktops, entre 1200px y 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
