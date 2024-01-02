@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600&display=swap");
+
+/* --- TAGS --- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Lexend", sans-serif;
+    background-color: #f5f4f9;
+}
+
+/* --- NAVBAR --- */
+.logo-foto {
+    width: 268px;
+    height: 92.673px;
+    display: flex;
+    padding: 6px 10px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+}
+
+.navbar-list {
+    padding: 0.625rem;
+}
+
+.navbar-web {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    padding: 16px 92px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: rgba(181, 178, 178, 0.7);
+    transition: color 2s;
+}
+
+.row-nav-item {
+    padding-right: 1.5rem;
+}
+
+.row-nav-item:hover i,
+.row-nav-item:hover .nav-link,
+.nav-link:focus {
+    color: #cf322090;
+}
+
+.row:hover .active {
+    color: #cf3220;
+}
+
+.col-nav-icon {
+    display: flex;
+    margin-top: 8% !important;
+    padding-right: 0% !important;
+}
+
+.nav-item {
+    display: flex;
+    padding: 0.625rem;
+    align-items: center;
+    gap: 0.4375rem;
+}
+
+.nav-icon {
+    width: 0.8125rem;
+    height: 0.8125rem;
+    color: rgba(181, 178, 178, 0.7);
+    padding-right: 0%;
+    transition: color 2s;
+}
+
+.active {
+    color: #ffffff;
+}
+
+.fa-center {
+    line-height: 150% !important;
+}
+
+/* --- FOOTER --- */
+.site-footer {
+    background: #0f0903;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #a0a0a0;
+}
+
+.site-footer hr {
+    width: 68.5rem;
+    height: 0.0625rem;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+.site-footer hr.small {
+    margin: 20px 0;
+}
+
+.site-footer h6 {
+    font-style: normal;
+    font-weight: 600;
+
+    color: #f5f4f9;
+
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+.site-footer a {
+    color: #a0a0a0;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #cf322090;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+
+.site-footer .social-icons a {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #a0a0a0;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+}
+
+.social-icons a.instagram:hover {
+    background-color: #ffdc8054;
+}
+
+.social-icons a.twitch:hover {
+    background-color: #9146ff54;
+}
+
+.social-icons a.youtube:hover {
+    background-color: #ff000054;
+}
+
+.social-icons a.twitter:hover {
+    background-color: #1da1f254;
+}
+
+.copyright-text {
+    text-align: center;
+}
+
+/* --- MEDIA QUERIES --- */
+@media (max-width: 575.98px) {
+    .logo-foto {
+        height: auto;
+        width: 85%;
+    }
+
+    .navbar-brand {
+        width: 65%;
+    }
+
+    .navbar-toggler {
+        padding: initial;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .site-footer {
+        padding-bottom: 0;
+    }
+    .site-footer .copyright-text,
+    .site-footer {
+        text-align: center;
+    }
+
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .row-nav-item {
+        padding-right: 0;
+    }
+
+    .site-footer [class^="col-"] {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-web {
+        display: flex;
+        padding: 16px 46px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

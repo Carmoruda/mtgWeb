@@ -1,0 +1,275 @@
+/* --- CAROUSEL --- */
+
+.carousel-indicators button {
+    border-radius: 100%;
+    width: 0.65rem !important;
+    height: 0.65rem !important;
+    background-color: rgba(239, 239, 239, 0.35) !important;
+}
+
+/* --- WELCOME SECTION --- */
+.welcome-text-frame {
+    display: flex;
+    padding: 4.375rem 11.375rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.75rem;
+}
+
+.welcome-infography-frame {
+    justify-content: center;
+    font-weight: 500;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 5.1875rem;
+}
+
+.welcome-title {
+    color: var(--Natural-Color-black, #181818);
+    text-align: center;
+
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+
+.welcome-col-text {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.welcome-icon-row {
+    background: #cf312029;
+    border-radius: 100%;
+
+    width: 6rem;
+    height: 6rem;
+
+    align-content: center;
+
+    margin-left: 28%;
+    margin-bottom: 1.31rem;
+}
+
+.welcome-icon {
+    color: #cf3120;
+    font-size: 2.75rem;
+}
+
+/* --- LATEST SETS --- */
+
+.sets-text-frame {
+    gap: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sets-card {
+    border-radius: 0.5rem;
+    box-shadow: 0px 8px 20px 0px rgba(140, 131, 131, 0.25);
+}
+
+.sets-card-img {
+    width: 10.5625rem;
+    height: 10.5625rem;
+
+    flex-shrink: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 0, 0, 0.7) 100%
+    );
+}
+
+.card-img-overlay {
+    width: 10.5625rem;
+    height: 10.5625rem;
+    padding: 0;
+}
+
+.sets-card-title {
+    display: grid;
+    place-items: center;
+
+    width: 10.5625rem;
+    height: 10.5625rem;
+    border-radius: 0.35rem;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    color: #f5f4f9;
+    text-align: center;
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 130%;
+
+    padding: 0.5rem 0;
+}
+
+/* --- UNIVERSES BEYOND and GAME FORMATS --- */
+
+.universes-beyond-frame,
+.game-formats-frame {
+    gap: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.universes-card,
+.formats-card {
+    display: flex;
+    padding: 1rem 1rem 0.5rem 1rem;
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 0.9375rem;
+
+    width: fit-content;
+
+    border-radius: 0.5rem;
+    border: 0.3px solid #d1d1d1;
+    background: #fff;
+
+    box-shadow: 0px 8px 20px 0px rgba(140, 131, 131, 0.25);
+}
+
+.universes-card-img,
+.formats-card-img {
+    width: 14.375rem;
+    height: 13.75rem;
+
+    border-radius: 0.375rem;
+}
+
+.universes-card-body,
+.formats-card-body {
+    padding-left: 0;
+    padding-top: 0.5rem;
+}
+
+.price-container,
+.information-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.price {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+
+    color: #7d7d7d;
+    background-color: #f0f0f0;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.foil-icon {
+    color: #fc326f;
+    background-color: #fc326f33;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.no-foil-icon {
+    margin-left: 1rem;
+}
+
+.format-information {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+
+    padding: 0.15rem 0.3rem 0.15rem 0;
+    border-radius: 0 0.3rem 0.3rem 0;
+}
+
+.format-icon {
+    padding: 0.3rem;
+    border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.num-cards-icon {
+    color: #cf3120;
+    background-color: #cf312029;
+}
+
+.num-players-icon {
+    color: #1055bc;
+    background-color: #1055bc29;
+    margin-left: 0.75rem;
+}
+
+.time-icon {
+    color: #0d8f0a;
+    background-color: #0d8f0a29;
+    margin-left: 0.75rem;
+}
+
+.num-cards {
+    color: #cf3120;
+    background-color: #cf312029;
+}
+
+.num-players {
+    color: #1055bc;
+    background-color: #1055bc29;
+}
+
+.time {
+    color: #0d8f0a;
+    background-color: #0d8f0a29;
+}
+
+/* --- COMMON INDEX.HTML --- */
+
+.section-title {
+    color: #181818;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.sets-text-frame,
+.universes-beyond-frame,
+.game-formats-frame,
+.titles-frame {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.row {
+    row-gap: 1rem;
+}
+
+.col {
+    padding: 0;
+    max-width: fit-content;
+    margin: 0 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    .universes-beyond-frame,
+    .sets-text-frame,
+    .game-formats-frame {
+        max-width: 90%;
+    }
+}
