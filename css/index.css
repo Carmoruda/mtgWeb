@@ -1,3 +1,15 @@
+/* --- NAVBAR --- */
+.navbar-web {
+    position: absolute;
+    padding: 16px 92px;
+    background-color: #0f090300;
+}
+
+.logo-foto {
+    width: 268px;
+    height: 92.673px;
+}
+
 /* --- CAROUSEL --- */
 
 .carousel-indicators button {
@@ -194,7 +206,7 @@
     font-style: normal;
     font-weight: 500;
 
-    padding: 0.15rem 0.3rem 0.15rem 0;
+    padding: 0.2rem 0.3rem 0.21rem 0;
     border-radius: 0 0.3rem 0.3rem 0;
 }
 

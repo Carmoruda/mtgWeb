@@ -7,13 +7,14 @@ html {
 
 body {
     font-family: "Lexend", sans-serif;
+    font-size: 1.125rem;
     background-color: #f5f4f9;
 }
 
 /* --- NAVBAR --- */
 .logo-foto {
-    width: 268px;
-    height: 92.673px;
+    width: 8.5rem;
+    height: 3rem;
     display: flex;
     padding: 6px 10px;
     align-items: center;
@@ -26,18 +27,17 @@ body {
 }
 
 .navbar-web {
-    position: absolute;
     width: 100%;
     z-index: 10;
     display: flex;
-    padding: 16px 92px;
+    padding: 0px 92px;
     justify-content: space-between;
     align-items: center;
+    background-color: #0f0903;
 }
 
 .nav-link {
     font-weight: 400;
-    font-size: 1.125rem;
     color: rgba(181, 178, 178, 0.7);
     transition: color 2s;
 }
@@ -58,7 +58,7 @@ body {
 
 .col-nav-icon {
     display: flex;
-    margin-top: 8% !important;
+    margin-top: 5% !important;
     padding-right: 0% !important;
 }
 
@@ -83,6 +83,55 @@ body {
 
 .fa-center {
     line-height: 150% !important;
+}
+
+/* --- PAGE HEADER --- */
+.header-line {
+    border: 0.3125rem solid #cf3120;
+    opacity: 100%;
+    margin: 0;
+}
+
+.header-banner {
+    width: 100vw;
+    z-index: 1;
+}
+
+.header-title {
+    position: absolute;
+    color: white;
+
+    z-index: 2;
+    width: 100vw;
+}
+
+.header-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.introduction-frame {
+    gap: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.introduction-frame {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1300px) {
+    .introduction-frame {
+        max-width: 80%;
+    }
 }
 
 /* --- FOOTER --- */
