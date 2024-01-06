@@ -1,0 +1,25 @@
+.portfolio-menu {
+    text-align: center;
+}
+
+.portfolio-menu ul li {
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    -webkit-transition: all 05s ease;
+    -moz-transition: all 05s ease;
+    -ms-transition: all 05s ease;
+    -o-transition: all 05s ease;
+    transition: all 0.5s ease;
+}
+
+.portfolio-item .item {
+    float: left;
+    margin: calc(var(--bs-gutter-x) * 0.5) 0;
+}
+
+.portfolio-item .videos {
+    margin-right: calc(var(--bs-gutter-x) * 0.95);
+}
