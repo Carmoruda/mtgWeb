@@ -245,6 +245,17 @@ body {
     text-align: center;
 }
 
+/* --- COOKIES --- */
+.cookies-banner {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cookies-text {
+    margin: 0;
+}
+
 /* --- MEDIA QUERIES --- */
 @media (max-width: 575.98px) {
     .logo-foto {
