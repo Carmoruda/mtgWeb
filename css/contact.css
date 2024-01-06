@@ -1,0 +1,98 @@
+/* --- CONTACT SECTION --- */
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1300px) {
+    .contact-section {
+        max-width: 80%;
+    }
+}
+
+.contact-text {
+    margin: auto 0;
+    line-height: 2rem;
+}
+
+.profile-img {
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 1rem auto;
+    margin-left: auto;
+    margin-left: 10%;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .facebook:hover {
+    background: #1877f2;
+    color: #ffffff;
+}
+
+.wrapper .twitter:hover {
+    background: #1da1f2;
+    color: #ffffff;
+}
+
+.wrapper .instagram:hover {
+    background: #e4405f;
+    color: #ffffff;
+}
+
+.wrapper .github:hover {
+    background: #333333;
+    color: #ffffff;
+}
+
+.wrapper .youtube:hover {
+    background: #cd201f;
+    color: #ffffff;
+}
+
+.contact-form {
+    background: #cd8d1f27;
+    margin-top: 2rem;
+    padding: 3rem 3rem;
+    padding-top: 3rem;
+    padding-top: 1rem;
+}
+
+.form-button {
+    background-color: #cf3120;
+    color: #f5f4f9;
+    margin-top: 3%;
+}
+
+iframe {
+    width: 1200px;
+}
+
+@media (max-width: 1300px) {
+    iframe {
+        max-width: 99%;
+    }
+}
