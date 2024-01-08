@@ -110,6 +110,13 @@
     padding: 0;
 }
 
+.card-img-overlay a:link,
+.card-img-overlay a:visited,
+.card-img-overlay a:hover,
+.card-img-overlay a:active {
+    text-decoration: none;
+}
+
 .sets-card-title {
     display: grid;
     place-items: center;
