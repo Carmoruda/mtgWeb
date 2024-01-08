@@ -13,7 +13,6 @@
 }
 
 .contact-text {
-    margin: auto 0;
     line-height: 2rem;
 }
 
@@ -27,7 +26,6 @@
     padding-left: 0;
     margin: 1rem auto;
     margin-left: auto;
-    margin-left: 10%;
 }
 
 .wrapper .icon {
@@ -89,6 +87,37 @@
 
 iframe {
     width: 1200px;
+}
+
+/* --- MEDIA QUERIES --- */
+
+/* --- Redmi 9 and iPhone 8 --- */
+@media (max-width: 575.98px) {
+    .profile-img {
+        width: 250px;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    ul {
+        margin-left: 0 !important;
+    }
+}
+
+/* --- iPad mini (vertical) --- */
+@media (max-width: 768px) and (min-width: 576px) {
+}
+
+/* --- iPad pro (vertical) --- */
+@media (max-width: 1024px) and (min-width: 768.98px) {
+    .contact-text {
+        margin-bottom: 5rem;
+    }
+}
+
+/* --- Laptop --- */
+@media (max-width: 1440px) and (min-width: 1024.98px) {
 }
 
 @media (max-width: 1300px) {

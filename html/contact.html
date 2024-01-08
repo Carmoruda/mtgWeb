@@ -75,19 +75,21 @@
 
     <!-- Introduction section -->
     <section class="introduction-section">
-        <hr class="header-line">
-        <div class="header-frame">
-            <h1 class="header-title text-center">Contact Us</h1>
-            <img class="header-banner" src="../media/banners/How to play banner.png" />
+        <div class="header">
+            <hr class="header-line">
+            <div class="header-frame">
+                <h1 class="header-title text-center">Contact Us</h1>
+                <img class="header-banner" src="../media/banners/How to play banner.png" />
+            </div>
+            <hr class="header-line">
         </div>
-        <hr class="header-line">
     </section>
 
     <!-- Contact section -->
     <section class="contact-section">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center">
                     <img class="profile-img" src="../media/profile-pic.png" alt="Profile picture">
                     <ul class="wrapper">
                         <li class="icon facebook">
@@ -95,9 +97,6 @@
                         </li>
                         <li class="icon twitter">
                             <span><i class="fab fa-twitter"></i></span>
-                        </li>
-                        <li class="icon instagram">
-                            <span><i class="fab fa-instagram"></i></span>
                         </li>
                         <li class="icon github">
                             <span><i class="fab fa-github"></i></span>
@@ -107,7 +106,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col contact-text">
+                <div class="col contact-text d-flex flex-column justify-content-center">
                     <p>Hey there, I'm Carmen (a.k.a Carmoruda). Currently, I'm a sophmore studing computer science. My
                         coding adventure kicked off back in 2016, starting with bringing Lego Mindstorms EV3 robots to
                         life for the FLL.</p>
@@ -169,8 +168,14 @@
             </div>
             <div class="col-md-12">
                 <label for="inputURL" class="form-label">URL</label>
-                <input type="url" class="form-control" name="URL" id="inputURL" placeholder="https://"
+                <input list="inputUrl" type="url" class="form-control" name="URL" id="inputURL" placeholder="https://"
                     pattern="https?://.+">
+                <datalist id="inputUrl">
+                    <option value="https://index.html/">
+                    <option value="https://howToPlay.html/">
+                    <option value="https://history.html/">
+                    <option value="https://contact.html/">
+                </datalist>
                 <small id="urlHelp" class="form-text text-muted">Optional. Provide link to where we can see the problem,
                     if any.</small>
             </div>
@@ -191,7 +196,7 @@
         <div class="container footer-container">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
-                    <img class="logo-foto img-fluid" src="../media/logo.png" alt="Magic the Gathering">
+                    <img class="logo-foto footer-foto img-fluid" src="../media/logo.png" alt="Magic the Gathering">
                 </div>
 
                 <div class="col-xs-6 col-md-2">
