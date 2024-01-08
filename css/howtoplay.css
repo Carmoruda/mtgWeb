@@ -33,7 +33,6 @@
 
 .spell-img {
     height: 12rem;
-    height: 12rem;
     padding-left: 2rem;
 }
 
@@ -79,6 +78,42 @@
         font-weight: 600;
         text-transform: uppercase;
     }
+}
+
+/* --- iPad mini (vertical) --- */
+@media (max-width: 768px) and (min-width: 576px) {
+    .youtube-video {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .spell-img,
+    .rules-img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        padding: 0;
+    }
+
+    .rules-row {
+        margin-bottom: 2rem;
+    }
+
+    .rules-img {
+        height: 20rem;
+    }
+}
+
+/* --- iPad pro (vertical) --- */
+@media (max-width: 1024px) and (min-width: 768.98px) {
+    .spell-img {
+        padding-left: 0;
+    }
+}
+
+/* --- Laptop --- */
+@media (max-width: 1440px) and (min-width: 1024.98px) {
 }
 
 @media (max-width: 1300px) {

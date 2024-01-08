@@ -257,20 +257,6 @@ body {
 }
 
 /* --- MEDIA QUERIES --- */
-@media (max-width: 575.98px) {
-    .logo-foto {
-        height: auto;
-        width: 85%;
-    }
-
-    .navbar-brand {
-        width: 65%;
-    }
-
-    .navbar-toggler {
-        padding: initial;
-    }
-}
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .site-footer {
@@ -293,6 +279,14 @@ body {
     .logo-foto {
         height: 50px !important;
         width: 120px !important;
+    }
+
+    .navbar-brand {
+        width: 65%;
+    }
+
+    .navbar-toggler {
+        padding: initial;
     }
 
     .footer-foto {
@@ -348,6 +342,10 @@ body {
     .site-footer hr {
         width: auto;
     }
+
+    .header-banner {
+        height: 90px;
+    }
 }
 
 /* --- iPad pro (vertical) --- */
@@ -364,6 +362,14 @@ body {
     .site-footer hr {
         width: auto;
     }
+
+    .header-banner {
+        height: 90px;
+    }
+}
+
+/* --- Laptop --- */
+@media (max-width: 1440px) and (min-width: 1024.98px) {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
