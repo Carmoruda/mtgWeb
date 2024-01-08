@@ -24,6 +24,9 @@
     margin-right: calc(var(--bs-gutter-x) * 0.95);
 }
 
+/* --- MEDIA QUERIES --- */
+
+/* --- Redmi 9 and iPhone 8 --- */
 @media (max-width: 575.98px) {
     .youtube-video {
         width: auto;
@@ -52,4 +55,20 @@
     h1 {
         font-size: 1.5rem;
     }
+}
+
+/* --- iPad mini (vertical) --- */
+@media (max-width: 768px) and (min-width: 576px) {
+}
+
+/* --- iPad pro (vertical) --- */
+@media (max-width: 1024px) and (min-width: 768.98px) {
+    .youtube-video {
+        height: 230px;
+        width: 400px;
+    }
+}
+
+/* --- Laptop --- */
+@media (max-width: 1440px) and (min-width: 1024.98px) {
 }
