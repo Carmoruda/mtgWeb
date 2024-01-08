@@ -278,6 +278,38 @@
     margin: 0 0.5rem;
 }
 
+/* --- MEDIA QUERIES --- */
+
+/* --- Redmi 9 and iPhone 8 --- */
+@media (max-width: 575.98px) {
+    .img-carousel-1 {
+        content: url(../media/home/carousel/Extra-Small-jose-vega-cinderella-setpiece-2021-8-4-jv.jpeg);
+    }
+
+    .img-carousel-2 {
+        content: url(../media/home/carousel/Extra-Small-josu-solano-430520-floodedcavern-final-v3.jpeg);
+    }
+
+    .img-carousel-3 {
+        content: url(../media/home/carousel/Extra-Small-david-frasheski-lotrmountainsright.jpeg);
+    }
+
+    .welcome-text-frame {
+        padding: 4.75rem;
+    }
+
+    .sets-text-frame,
+    .universes-beyond-frame,
+    .game-formats-frame {
+        display: flex;
+        padding: 4.375rem 11.375rem;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 3.75rem;
+    }
+}
+
 @media (max-width: 1200px) {
     .universes-beyond-frame,
     .sets-text-frame,

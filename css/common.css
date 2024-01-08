@@ -287,6 +287,49 @@ body {
         font-weight: 600;
     }
 }
+
+/* --- Redmi 9 and iPhone 8 --- */
+@media (max-width: 575.98px) {
+    .logo-foto {
+        height: 50px !important;
+        width: 120px !important;
+    }
+
+    .footer-foto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titles-frame {
+        margin: 0;
+        text-align: center;
+    }
+
+    .site-footer {
+        padding: 45px 2rem 20px;
+        text-align: center !important;
+    }
+
+    .site-footer hr {
+        width: auto;
+    }
+
+    .header-banner {
+        height: 90px;
+    }
+
+    .header {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    #reject-button {
+        margin-bottom: 1rem;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     .row-nav-item {
         padding-right: 0;

@@ -1,8 +1,8 @@
-.portfolio-menu {
+.gallery-menu {
     text-align: center;
 }
 
-.portfolio-menu ul li {
+.gallery-menu ul li {
     display: inline-block;
     margin: 0;
     list-style: none;
@@ -15,11 +15,41 @@
     transition: all 0.5s ease;
 }
 
-.portfolio-item .item {
+.gallery-item .item {
     float: left;
     margin: calc(var(--bs-gutter-x) * 0.5) 0;
 }
 
-.portfolio-item .videos {
+.gallery-item .videos {
     margin-right: calc(var(--bs-gutter-x) * 0.95);
+}
+
+@media (max-width: 575.98px) {
+    .youtube-video {
+        width: auto;
+        height: 200px;
+        margin-left: 2rem;
+    }
+
+    .gallery-frame {
+        margin-top: 2rem;
+    }
+
+    .planeswalkers-button {
+        margin-top: 0.5rem !important;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
 }

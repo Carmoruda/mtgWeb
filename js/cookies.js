@@ -4,12 +4,18 @@ let buttonAccept = document.querySelector("#accept-button");
 buttonReject.addEventListener("click", rejectCookies);
 buttonAccept.addEventListener("click", acceptCookies);
 
+/*if (document.cookie.name = "cookiesAccepted") {
+    var banner = document.querySelector(".cookies-banner");
+    banner.style.display = "none";
+}*/
+
 // Create cookies
 function createCookie(name, value, days) {
     var date = new Date();
     date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
     var expires = "expires=" + date.toUTCString();
     document.cookie = name + "=" + (value || "") + expires + "; path=/";
+
 }
 
 
