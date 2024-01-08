@@ -330,7 +330,13 @@ body {
     }
 }
 
+/* --- iPad mini (vertical) --- */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .titles-frame {
+        margin: 0;
+        text-align: center;
+    }
+
     .row-nav-item {
         padding-right: 0;
     }
@@ -338,7 +344,28 @@ body {
     .site-footer [class^="col-"] {
         margin-bottom: 30px;
     }
+
+    .site-footer hr {
+        width: auto;
+    }
 }
+
+/* --- iPad pro (vertical) --- */
+@media (max-width: 1024px) and (min-width: 767.98px) {
+    .col {
+        margin: 0 0.3rem;
+    }
+
+    .titles-frame {
+        margin: 0;
+        text-align: center;
+    }
+
+    .site-footer hr {
+        width: auto;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .navbar-web {
         display: flex;

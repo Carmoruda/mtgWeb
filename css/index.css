@@ -310,6 +310,85 @@
     }
 }
 
+/* --- iPad mini (vertical) --- */
+@media (max-width: 768px) and (min-width: 576px) {
+    .img-carousel-1 {
+        content: url(../media/home/carousel/small-jose-vega-cinderella-setpiece-2021-8-4-jv.jpeg);
+    }
+
+    .img-carousel-2 {
+        content: url(../media/home/carousel/Small-josu-solano-430520-floodedcavern-final-v3.jpeg);
+    }
+
+    .img-carousel-3 {
+        content: url(../media/home/carousel/small-david-frasheski-lotrmountainsright.jpeg);
+    }
+
+    .welcome-icon-row {
+        margin-left: 15%;
+    }
+
+    .brain-row {
+        margin-left: 30%;
+    }
+
+    .universes-beyond-row,
+    .game-formats-row {
+        column-gap: 1.5rem;
+    }
+}
+
+/* --- iPad pro (vertical) --- */
+@media (max-width: 1024px) and (min-width: 768.98px) {
+    .col {
+        margin: 0 0.3rem;
+    }
+
+    .img-carousel-1 {
+        content: url(../media/home/carousel/medium-jose-vega-cinderella-setpiece-2021-8-4-jv.jpeg);
+    }
+
+    .img-carousel-2 {
+        content: url(../media/home/carousel/medium-josu-solano-430520-floodedcavern-final-v3.jpeg);
+    }
+
+    .img-carousel-3 {
+        content: url(../media/home/carousel/medium-david-frasheski-lotrmountainsright.jpeg);
+    }
+
+    .welcome-icon-row {
+        margin-left: 20%;
+    }
+
+    .latest-sets-row {
+        margin: 0 5rem;
+    }
+
+    .universes-beyond-row {
+        margin: 0 5rem;
+        column-gap: 1.5rem;
+    }
+}
+
+/* --- Laptop --- */
+@media (max-width: 1440px) and (min-width: 1024.98px) {
+    .img-carousel-1 {
+        content: url(../media/home/carousel/large-jose-vega-cinderella-setpiece-2021-8-4-jv.jpeg);
+    }
+
+    .img-carousel-2 {
+        content: url(../media/home/carousel/large-josu-solano-430520-floodedcavern-final-v3.jpeg);
+    }
+
+    .img-carousel-3 {
+        content: url(../media/home/carousel/large-david-frasheski-lotrmountainsright.jpeg);
+    }
+
+    .brain-row {
+        margin-left: 30%;
+    }
+}
+
 @media (max-width: 1200px) {
     .universes-beyond-frame,
     .sets-text-frame,
